@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="/styles/index.css">
+  </head>
+  <body>
+    <header>
+      <div class="calculator-header">
+        CALCULATOR
+      </div>
+    </header>
+    <div class="calculator-main">
+      <div class="calculator-div">
+        <div class="display"></div>
+        <p>
+          <button onclick="calculate(1)
+            
+          ">1</button>
+    
+          <button onclick="calculate(2)
+          ">2</button>
+    
+          <button onclick="
+           calculate(3)
+          ">3</button>
+    
+          <button onclick="
+            calculate('+')
+          ">+</button>
+        </p>
+    
+        <p>
+          <button onclick="
+            calculate(4)
+          ">4</button>
+    
+          <button onclick="
+            calculate(5)
+          ">5</button>
+    
+          <button onclick="
+            calculate(6)
+          ">6</button>
+    
+          <button onclick="
+           calculate('-')
+          ">-</button>
+        </p>
+    
+        <p>
+          <button onclick="
+           calculate(7)
+          ">7</button>
+    
+          <button onclick="
+            calculate(8)
+          ">8</button>
+    
+          <button onclick="
+            calculate(9)
+          ">9</button>
+    
+          <button onclick="
+            calculate('*')
+          ">*</button>
+        </p>
+    
+        <p>
+          <button onclick="
+            calculate(0)
+          ">0</button>
+    
+          <button onclick="
+           calculate('.')
+          ">.</button>
+    
+          <button onclick="
+            
+            result();
+            calculation='';
+            
+          ">=</button>
+    
+          <button onclick="
+            calculate('/')
+          ">/</button>
+        </p>
+    
+        <p>
+          <button class="clear-button" onclick="
+            calculation = '';
+            clearScreen();
+            
+          ">Clear</button>
+    
+          
+        </p>
+      </div>
+      
+    </div>
+
+    <script>
+      let calculation = '';
+      function result(){
+        calculation = eval(calculation);
+        document.querySelector('.display').innerHTML=calculation;
+      }
+
+      function calculate(number){
+        calculation+=number;
+        document.querySelector('.display').innerHTML=calculation;
+      }
+      function clearScreen(){
+        let calculation='';
+        document.querySelector('.display').innerHTML=calculation;
+      }
+      
+    </script>
+  </body>
+</html>
