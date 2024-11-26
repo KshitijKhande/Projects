@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: white;
+}
+.projects-page{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+
+}
+.project-button{
+    display: flex;
+    
+    height: 400px;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:30px ;
+    margin-bottom: 30px;
+
+    
+    
+}
+.project-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    margin-right: 110px;
+    border: 2px light white;
+    border-radius: 10px;
+
+}
+.project-img-example{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+.project-description{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    width: 450px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.p-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.code-link-button{
+    border: none;
+    background: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}

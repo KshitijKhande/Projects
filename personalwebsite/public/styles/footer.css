@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+    height: 100%
+}
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    height:30px;
+}
+.footer-element{
+    text-decoration: solid;
+    
+}

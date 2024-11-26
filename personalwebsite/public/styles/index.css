@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 100px;
+    position: relative;
+    height: 400px;
+}
+.description{
+    margin-left: 20px;
+    height: 400px;
+    width: 700px;
+    margin-top: 50px;
+
+}
+.image{
+    width: 500px;
+    margin-right: 30px;
+    background-color: wheat;
+}
+.main-img{
+    width: 500px;
+    height: 400px;
+}

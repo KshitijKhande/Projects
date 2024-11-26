@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+}
+.contacts-page{
+    display: flex;
+    flex-direction:row;
+}
+.contacts-form{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 90px;
+    margin-left: 100px;
+}
+.contacts{
+    position: relative;
+    color: white;
+    display: flex;
+    height: 100px;
+    width: 550px;
+    top: 100px;
+    flex-direction: column;
+    margin-left: 30px;
+    /* background-color: white; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact-buttons{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 500px;
+    /* background-color: white; */
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px;
+
+}
+.contact-buttons:hover{
+    box-shadow:3px 3px 3px 3px;
+}
+.icon{
+    display: flex;
+    
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+.contact-form-container {
+    position: relative;
+    background-color:black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    top: 110px;
+    margin-left: 130px;
+    border: 2px solid white;
+    color: white;
+    
+}
+
+h2 {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none; /* Hidden by default */
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
