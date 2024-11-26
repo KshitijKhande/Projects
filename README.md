@@ -1,2 +1,3 @@
 # uminternship2024
-# The Repository is created for the Unified MeNtor Internship for Web Development and belongs to Kshitij Khande (UNID: UMIP23720).
+
+# The Repository contains project associated with the Unified Mentor Internship for Web Development and belongs to Kshitij Khande (UNID: UMIP23720).
